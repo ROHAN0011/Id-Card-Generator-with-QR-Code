@@ -10,7 +10,7 @@ draw = ImageDraw.Draw(image)
 
 font = ImageFont.truetype('arial.ttf', size=45)
 
-os.system("Title: ID CARD Generator by Rahman Khan")
+os.system("Title: ID CARD Generator with QR Code by Rohan Kasabe")
 
 d_date = datetime.datetime.now()
 reg_format_date = d_date.strftime(
