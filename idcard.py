@@ -97,7 +97,6 @@ image.save(str(name) + '.png')
 QR = qrcode.make(str(company) + '\n' + str(name)+'\n' + str(idno))
 QR.save(str(idno) + '.bmp')
 
-
 ID = Image.open(name + '.png')
 QR = Image.open(str(idno) + '.bmp')  # 25x25
 ID.paste(QR, (650, 350))
